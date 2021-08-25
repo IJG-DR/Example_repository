@@ -6,7 +6,7 @@ Our friend Steve has asked us to help him analyze a group of alternative energy 
 
 ### Methodology
 
-We have been provided with a data table containing historicals for the 12 stocks, with columns corresponding to ticker symbol, trading date, open, hi, low, close, adjusted close and trading volume. The dataset was divided into two tables, one for 2017 and one for 2018. Each table was incorporated to an excel workbook as individual worksheets. Using VBA and additional worksheets to automate the analysis, we created different scripts to perform calculations and formatting of reported results, as well as buttons to make the process intuitive and convenient. 
+We have been provided with a data table containing historicals for the 12 stocks, with columns corresponding to ticker symbol, trading date, open, hi, low, close, adjusted close and trading volume. The dataset was divided into two tables, one for 2017 and one for 2018. Each table was incorporated into an excel workbook as individual worksheets. Using VBA and additional worksheets to automate the analysis, we created different scripts to perform calculation and formatting of reported results. We also added buttons to make the process intuitive and convenient. 
 
 Once we had our basic code running and producing the correct results, we focused our effort in optimizing the code through refactoring in order to improve run time. To do that, we added three new arrays to the code to capture the information in one sweep of the data. These arrays included traded volume, starting price, and ending price for each ticker, and were dimensioned according to the corresponding data types. 
 
